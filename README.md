@@ -4,7 +4,7 @@ This example shows how to render custom component for particular column in [Blaz
 
 ## Overview
 
-This sample application demonstrates the power of Syncfusion's `EditTemplate` feature for the GridColumn component. It provides a real-world example of an orders management grid where the shipping city is edited using a custom dropdown component instead of the default text input.
+This sample application demonstrates the power of Syncfusion's `EditTemplate` feature for the GridColumn. It provides a real-world example of an orders management grid where the shipping city is edited using a custom dropdown component instead of the default text input.
 
 The project includes:
 
