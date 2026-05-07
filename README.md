@@ -30,7 +30,7 @@ The project includes:
 
 ## Getting Started
 
-### Clone the Repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/EJ2-DataGrid-Blazor-Editing-CellEditTemplate.git
