@@ -1,6 +1,6 @@
 # Blazor DataGrid Cell Edit Template
 
-This example shows how to render custom component for particular column.
+This example shows how to render custom component for particular column in [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) component.
 
 ## Overview
 
@@ -33,7 +33,7 @@ The project includes:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/EJ2-DataGrid-Blazor-Editing-CellEditTemplate.git
+git clone https://github.com/SyncfusionExamples/EJ2-DataGrid-Blazor-Editing-CellEditTemplate.git
 cd EJ2-DataGrid-Blazor-Editing-CellEditTemplate
 ```
 
