@@ -2,34 +2,56 @@
 
 This example shows how to render custom component for particular column.
 
-The cell edit template is used to add a custom component for a particular column. You can use the **EditTemplate** of the GridColumn component to add the custom component. You can access the parameters passed to the templates using implicit parameter named **context**.
+## Overview
+
+This sample application demonstrates the power of Syncfusion's `EditTemplate` feature for the GridColumn component. It provides a real-world example of an orders management grid where the shipping city is edited using a custom dropdown component instead of the default text input.
+
+The project includes:
+
+- A responsive **DataGrid** with sample order data
+- **Inline editing** with custom cell edit templates
+- A **dropdown selector** for the ShipCity column
+- Complete order details model with typed properties
+- Server-side Blazor hosting with Syncfusion components
 
 ## Features
 
-* Fast rendering with virtualization and row/column virtualization
-* Sorting, filtering, grouping, and searching capabilities
-* Inline, batch, and dialog editing modes
-* Template columns, column resizing, reordering, and freezing
-* Excel and PDF export (requires additional Syncfusion export packages)
+- **Custom Cell Editors**: Use the `EditTemplate` component to add custom controls for specific columns
+- **Inline Editing**: Edit records directly in the grid with Add, Edit, Delete, and Cancel actions
+- **Data Binding**: Strongly-typed model binding with `ModelType` parameter
+- **Paging**: Built-in pagination support (5 records per page)
+- **Context Access**: Access row data within templates using the implicit `context` parameter
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [.NET SDK 7.0](https://dotnet.microsoft.com/download/dotnet/7.0) or later
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the Repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/yourusername/EJ2-DataGrid-Blazor-Editing-CellEditTemplate.git
+cd EJ2-DataGrid-Blazor-Editing-CellEditTemplate
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run --project CellEditTemplateSample.csproj
 ```
 
 ## References
