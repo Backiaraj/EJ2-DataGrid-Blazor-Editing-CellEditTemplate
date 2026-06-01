@@ -25,7 +25,7 @@ The project includes:
 
 * [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
 * [Visual Studio Code](https://code.visualstudio.com/)
-* [.NET SDK 7.0](https://dotnet.microsoft.com/download/dotnet/7.0) or later
+* [.NET SDK 9.0](https://dotnet.microsoft.com/download/dotnet/9.0) or later
 
 ## Getting Started
 
